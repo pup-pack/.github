@@ -21,7 +21,7 @@ nothing is changed without an explicit flag.
 | **pup-up**    | Syncs repo infrastructure from maintained templates                          | [repo](https://github.com/denisecase/pup-up)    | [pypi](https://pypi.org/project/pup-up/)    |
 | **pup-check** | Checks repo structure and configuration for consistency                      | [repo](https://github.com/denisecase/pup-check) | [pypi](https://pypi.org/project/pup-check/) |
 | **pup-clean** | Prepares instructor repo for student release by removing generated artifacts | [repo](https://github.com/denisecase/pup-clean) | [pypi](https://pypi.org/project/pup-clean/) |
-| **pup-core**  | Shared inspection, metadata, and path-safety primitives (library)            | [repo](https://github.com/denisecase/pup-core)  | [pypi](https://pypi.org/project/pup-core/)  |
+| **pup-core**  | Shared inspection, metadata, and path-safety primitives (library)            | [repo](https://github.com/pup-pack/pup-core)  | [pypi](https://pypi.org/project/pup-core/)  |
 
 Templates: [denisecase/templates](https://github.com/denisecase/templates)
 
