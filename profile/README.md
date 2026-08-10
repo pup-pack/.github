@@ -23,7 +23,7 @@ nothing is changed without an explicit flag.
 | **pup-clean** | Prepares instructor repo for student release by removing generated artifacts | [repo](https://github.com/pup-pack/pup-clean) | [pypi](https://pypi.org/project/pup-clean/) |
 | **pup-core**  | Shared inspection, metadata, and path-safety primitives (library)            | [repo](https://github.com/pup-pack/pup-core)    | [pypi](https://pypi.org/project/pup-core/)  |
 
-Templates: [denisecase/templates](https://github.com/denisecase/templates)
+Templates: [pup-pack/templates](https://github.com/pup-pack/templates)
 
 ## Use
 
@@ -54,7 +54,7 @@ Add `@latest` to any command to force the newest published version
 Every supporting file documents its own purpose and decisions inline;
 the reason for each decision lives in the associated file.
 Repository structure and the layered file conventions are defined in
-[templates](https://github.com/denisecase/templates).
+[templates](https://github.com/pup-pack/templates).
 
 ## Annotations
 

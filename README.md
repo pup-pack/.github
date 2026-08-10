@@ -52,7 +52,7 @@ git push -u origin main
 Every supporting file documents its own purpose and decisions inline;
 the reason for each decision lives in the associated file.
 Repository structure and the layered file conventions are defined in
-[templates](https://github.com/denisecase/templates).
+[templates](https://github.com/pup-pack/templates).
 
 ## Annotations
 
