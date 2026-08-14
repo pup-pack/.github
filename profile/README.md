@@ -16,12 +16,12 @@ nothing is changed without an explicit flag.
 
 ## The Pack
 
-| Tool          | What it does                                                                 | Repo                                            | PyPI                                        |
-| ------------- | ---------------------------------------------------------------------------- | ----------------------------------------------- | ------------------------------------------- |
+| Tool          | What it does                                                                 | Repo                                          | PyPI                                        |
+| ------------- | ---------------------------------------------------------------------------- | --------------------------------------------- | ------------------------------------------- |
 | **pup-up**    | Syncs repo infrastructure from maintained templates                          | [repo](https://github.com/pup-pack/pup-up)    | [pypi](https://pypi.org/project/pup-up/)    |
 | **pup-check** | Checks repo structure and configuration for consistency                      | [repo](https://github.com/pup-pack/pup-check) | [pypi](https://pypi.org/project/pup-check/) |
 | **pup-clean** | Prepares instructor repo for student release by removing generated artifacts | [repo](https://github.com/pup-pack/pup-clean) | [pypi](https://pypi.org/project/pup-clean/) |
-| **pup-core**  | Shared inspection, metadata, and path-safety primitives (library)            | [repo](https://github.com/pup-pack/pup-core)    | [pypi](https://pypi.org/project/pup-core/)  |
+| **pup-core**  | Shared inspection, metadata, and path-safety primitives (library)            | [repo](https://github.com/pup-pack/pup-core)  | [pypi](https://pypi.org/project/pup-core/)  |
 
 Templates: [pup-pack/templates](https://github.com/pup-pack/templates)
 
