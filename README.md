@@ -5,7 +5,9 @@
 [![Check Links](https://github.com/pup-pack/.github/actions/workflows/links.yml/badge.svg)](https://github.com/pup-pack/.github/actions/workflows/links.yml)
 [![Dependabot](https://img.shields.io/badge/Dependabot-enabled-brightgreen.svg)](https://github.com/pup-pack/.github/security)
 
-<img src="docs/images/pup.png" alt="pup logo" width="110">
+<img
+src="https://raw.githubusercontent.com/pup-pack/pup-up/main/docs/images/pup.png"
+alt="pup logo" width="110">
 
 > Organization defaults and profile for the **pup-pack** GitHub organization.
 
