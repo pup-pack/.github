@@ -1,9 +1,9 @@
 # pup-pack (.github repo)
 
-[![Version](https://img.shields.io/badge/version-v0.2.2-blue)](https://github.com/toy-gpt/.github/releases)
+[![Version](https://img.shields.io/badge/version-v0.2.2-blue)](https://github.com/pup-pack/.github/releases)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/license/MIT)
-[![Check Links](https://github.com/toy-gpt/.github/actions/workflows/links.yml/badge.svg)](https://github.com/toy-gpt/.github/actions/workflows/links.yml)
-[![Dependabot](https://img.shields.io/badge/Dependabot-enabled-brightgreen.svg)](https://github.com/toy-gpt/.github/security)
+[![Check Links](https://github.com/pup-pack/.github/actions/workflows/links.yml/badge.svg)](https://github.com/pup-pack/.github/actions/workflows/links.yml)
+[![Dependabot](https://img.shields.io/badge/Dependabot-enabled-brightgreen.svg)](https://github.com/pup-pack/.github/security)
 
 <img src="docs/images/pup.png" alt="pup logo" width="110">
 
