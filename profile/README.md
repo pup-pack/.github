@@ -16,12 +16,13 @@ nothing is changed without an explicit flag.
 
 ## The Pack
 
-| Tool          | What it does                                                                 | Repo                                          | PyPI                                        |
-| ------------- | ---------------------------------------------------------------------------- | --------------------------------------------- | ------------------------------------------- |
-| **pup-up**    | Syncs repo infrastructure from maintained templates                          | [repo](https://github.com/pup-pack/pup-up)    | [pypi](https://pypi.org/project/pup-up/)    |
-| **pup-check** | Checks repo structure and configuration for consistency                      | [repo](https://github.com/pup-pack/pup-check) | [pypi](https://pypi.org/project/pup-check/) |
-| **pup-clean** | Prepares instructor repo for student release by removing generated artifacts | [repo](https://github.com/pup-pack/pup-clean) | [pypi](https://pypi.org/project/pup-clean/) |
-| **pup-core**  | Shared inspection, metadata, and path-safety primitives (library)            | [repo](https://github.com/pup-pack/pup-core)  | [pypi](https://pypi.org/project/pup-core/)  |
+| Tool | PyPI | Purpose |
+| --- | --- | --- |
+| [pup-up](https://github.com/pup-pack/pup-up) | [PyPI](https://pypi.org/project/pup-up/) | Syncs repo infrastructure from maintained templates |
+| [pup-down](https://github.com/pup-pack/pup-down) | [PyPI](https://pypi.org/project/pup-down/) | Reports repo infrastructure changes that may belong in canonical templates |
+| [pup-check](https://github.com/pup-pack/pup-check) | [PyPI](https://pypi.org/project/pup-check/) | Checks repo structure and configuration for consistency |
+| [pup-clean](https://github.com/pup-pack/pup-clean) | [PyPI](https://pypi.org/project/pup-clean/) | Prepares instructor repo for student release by removing generated artifacts |
+| [pup-core](https://github.com/pup-pack/pup-core) | [PyPI](https://pypi.org/project/pup-core/) | Shared inspection, metadata, and path-safety primitives (library) |
 
 Templates: [pup-pack/templates](https://github.com/pup-pack/templates)
 
@@ -35,6 +36,7 @@ All default to a dry run.
 | `uvx pup-up`             | Show what infrastructure files would change    |
 | `uvx pup-up --diff`      | Show the exact line-by-line changes            |
 | `uvx pup-up --write`     | Apply the changes (**destructive**)            |
+| `uvx pup-down`           | Report infrastructure changes for templates   |
 | `uvx pup-check`          | Report structure and configuration issues      |
 | `uvx pup-clean`          | Show what generated artifacts would be removed |
 | `uvx pup-clean --delete` | Remove them (**destructive**)                  |
