@@ -21,7 +21,7 @@ nothing is changed without an explicit flag.
 | [pup-up](https://github.com/pup-pack/pup-up) | [PyPI](https://pypi.org/project/pup-up/) | Syncs repo infrastructure from maintained templates |
 | [pup-down](https://github.com/pup-pack/pup-down) | [PyPI](https://pypi.org/project/pup-down/) | Reports repo infrastructure changes that may belong in canonical templates |
 | [pup-check](https://github.com/pup-pack/pup-check) | [PyPI](https://pypi.org/project/pup-check/) | Checks repo structure and configuration for consistency |
-| [pup-clean](https://github.com/pup-pack/pup-clean) | [PyPI](https://pypi.org/project/pup-clean/) | Prepares instructor repo for student release by removing generated artifacts |
+| [pup-clean](https://github.com/pup-pack/pup-clean) | [PyPI](https://pypi.org/project/pup-clean/) | Cleans repo by removing generated artifacts |
 | [pup-core](https://github.com/pup-pack/pup-core) | [PyPI](https://pypi.org/project/pup-core/) | Shared inspection, metadata, and path-safety primitives (library) |
 
 Default Templates: [pup-pack/templates](https://github.com/pup-pack/templates)
