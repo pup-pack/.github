@@ -24,7 +24,7 @@ nothing is changed without an explicit flag.
 | [pup-clean](https://github.com/pup-pack/pup-clean) | [PyPI](https://pypi.org/project/pup-clean/) | Prepares instructor repo for student release by removing generated artifacts |
 | [pup-core](https://github.com/pup-pack/pup-core) | [PyPI](https://pypi.org/project/pup-core/) | Shared inspection, metadata, and path-safety primitives (library) |
 
-Templates: [pup-pack/templates](https://github.com/pup-pack/templates)
+Default Templates: [pup-pack/templates](https://github.com/pup-pack/templates)
 
 ## Use
 
