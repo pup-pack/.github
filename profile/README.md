@@ -6,12 +6,12 @@ alt="pup logo" width="110">
 
 > Opinionated tooling for keeping professional Python repositories on a consistent baseline.
 
-The **PUP** tools keep a fleet of Python repositories
+The **PUP** tools keep a fleet of Python repositories UP-to-date
 on a shared professional standard:
-syncing infrastructure files, checking structure, and preparing
-instructor repos for release.
-Each runs with no install via `uvx`.
-Dry run is always the default;
+syncing infrastructure files, checking structure, and cleaning up generated content.
+
+Each command-line tool runs with **no install** via `uvx`.
+Dry run is the default;
 nothing is changed without an explicit flag.
 
 ## The Pack
@@ -26,17 +26,30 @@ nothing is changed without an explicit flag.
 
 Default Templates: [pup-pack/templates](https://github.com/pup-pack/templates)
 
-## Use
+## Interactive Project Explainer
 
-Run any tool from inside a target repository.
-All default to a dry run.
+The
+[Professional Python Project Explainer](https://github.com/pup-pack/professional-python-project-explainer)
+is a browser-based Marimo app for exploring common files and folders
+in professional Python repositories.
+
+It fetches the selected repository **structure** live from GitHub
+and explains the purpose and rationale for common project contents.
+
+[Open the Professional Python Project Explainer](https://pup-pack.github.io/professional-python-project-explainer/)
+
+## Use The Command Line Tools
+
+Run a tool from inside a target repository.
+All commands default to a dry run if no flags are provided.
+No changes are made unless the user provides a flag, such as `--write` or `--delete`.
 
 | Command                  | What happens                                   |
 | ------------------------ | ---------------------------------------------- |
 | `uvx pup-up`             | Show what infrastructure files would change    |
 | `uvx pup-up --diff`      | Show the exact line-by-line changes            |
 | `uvx pup-up --write`     | Apply the changes (**destructive**)            |
-| `uvx pup-down`           | Report infrastructure changes for templates   |
+| `uvx pup-down`           | Report infrastructure changes for templates    |
 | `uvx pup-check`          | Report structure and configuration issues      |
 | `uvx pup-clean`          | Show what generated artifacts would be removed |
 | `uvx pup-clean --delete` | Remove them (**destructive**)                  |
